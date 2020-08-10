@@ -27,3 +27,7 @@ shepd-cli devices create --name="my device" --token-file="my-device.conf"
 ```
 
 Once that's done, you'll have a new `my-device.conf` file. You should copy this to `/etc/shepd/shepd.conf` on the system you're using [SHEPD DNS](https://github.com/shepdio/shepd-dns) on to monitor/filter traffic. Create a new 'device' in this way for each system you want to monitor.
+
+## Sources
+
+You'll notice there's no source code in this repository yet. That will change - once the code has undergone proper review and sanity checking, it will be uploaded here.
